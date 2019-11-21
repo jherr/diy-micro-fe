@@ -1,0 +1,26 @@
+<html>
+  <head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+</style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <diy-component name="images" />
+      </div>
+      <div>
+        <diy-component name="checkout" />
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script defer src="dist/checkout.js"></script>
+    <script defer src="dist/images.js"></script>
+  </body>
+</html>

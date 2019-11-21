@@ -1,0 +1,19 @@
+{
+  "name": "host",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "loadjs": "^4.0.1",
+    "rxjs": "^6.5.3"
+  }
+}

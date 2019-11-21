@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "parcel watch checkout.js --out-dir ../../host/dist/"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
